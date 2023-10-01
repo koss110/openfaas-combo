@@ -6,6 +6,8 @@ metadata:
     linkerd.io/inject: enabled
     config.linkerd.io/skip-inbound-ports: "4222"
     config.linkerd.io/skip-outbound-ports: "4222"
+    helm.sh/hook: pre-install,pre-upgrade
+    helm.sh/hook-weight: "-5"
   labels:
     role: openfaas-system
     access: openfaas-system
@@ -19,6 +21,8 @@ metadata:
     linkerd.io/inject: enabled
     config.linkerd.io/skip-inbound-ports: "4222"
     config.linkerd.io/skip-outbound-ports: "4222"
+    helm.sh/hook: pre-install,pre-upgrade
+    helm.sh/hook-weight: "-5"
   labels:
     istio-injection: enabled
     role: openfaas-fn
