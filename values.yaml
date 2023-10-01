@@ -1,0 +1,9 @@
+federatedGateway:
+  enabled: true
+federated-gateway:  
+  gatewayURL: 'http://federated-gateway.openfaas:8080'
+  issuer: https://kubiya-dev.us.auth0.com/
+  audience: kubiya-ai-tunnel-dev-eks-runner.kubiya-ai
+  allowInvoke: 'true'
+openfaas:
+  enabled: true
