@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   openfaas-combo:
   - apiVersion: v2
-    created: "2023-10-01T16:32:54.349901+03:00"
+    created: "2023-10-01T16:36:38.138055+03:00"
     dependencies:
     - condition: federatedGateway.enabled
       name: federated-gateway
@@ -19,58 +19,4 @@ entries:
     urls:
     - openfaas-combo-0.1.6.tgz
     version: 0.1.6
-  - apiVersion: v2
-    created: "2023-10-01T16:32:54.345029+03:00"
-    dependencies:
-    - condition: federatedGateway.enabled
-      name: federated-gateway
-      repository: https://openfaas.github.io/faas-netes/
-      version: 0.0.3
-    - condition: openfaas.enabled
-      name: openfaas
-      repository: https://openfaas.github.io/faas-netes/
-      version: 14.1.8
-    description: A Helm chart to deploy OpenFaaS and federated-gateway
-    digest: 7bb3c65826703e78a75c394c2c643a0b0cae887f71b1418a7703307bb3b1dc7a
-    name: openfaas-combo
-    type: application
-    urls:
-    - openfaas-combo-0.1.5.tgz
-    version: 0.1.5
-  - apiVersion: v2
-    created: "2023-10-01T16:32:54.339645+03:00"
-    dependencies:
-    - condition: federatedGateway.enabled
-      name: federated-gateway
-      repository: https://openfaas.github.io/faas-netes/
-      version: 0.0.3
-    - condition: openfaas.enabled
-      name: openfaas
-      repository: https://openfaas.github.io/faas-netes/
-      version: 14.1.8
-    description: A Helm chart to deploy OpenFaaS and federated-gateway
-    digest: 7f6dd79f7c68c77e3f7ff5d45e360cc8757229ba7a7ff3aa46cf2b5e2033ca5c
-    name: openfaas-combo
-    type: application
-    urls:
-    - openfaas-combo-0.1.4.tgz
-    version: 0.1.4
-  - apiVersion: v2
-    created: "2023-10-01T16:32:54.337105+03:00"
-    dependencies:
-    - condition: federatedGateway.enabled
-      name: federated-gateway
-      repository: https://openfaas.github.io/faas-netes/
-      version: 0.0.3
-    - condition: openfaas.enabled
-      name: openfaas
-      repository: https://openfaas.github.io/faas-netes/
-      version: 14.1.8
-    description: A Helm chart to deploy OpenFaaS and federated-gateway
-    digest: 47ad0a6789662706eeb9094f503003b110cf8e1ffd1fe7035c6b01f60c9a7026
-    name: openfaas-combo
-    type: application
-    urls:
-    - openfaas-combo-0.1.3.tgz
-    version: 0.1.3
-generated: "2023-10-01T16:32:54.334372+03:00"
+generated: "2023-10-01T16:36:38.130538+03:00"
