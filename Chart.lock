@@ -1,0 +1,9 @@
+dependencies:
+- name: federated-gateway
+  repository: https://openfaas.github.io/faas-netes/
+  version: 0.0.3
+- name: openfaas
+  repository: https://openfaas.github.io/faas-netes/
+  version: 14.1.8
+digest: sha256:68ea93d05cb965f49c5fa150fec90b4e7c98ecd0daadca3fd0c00ec20041108a
+generated: "2023-09-24T11:47:20.396701+03:00"
