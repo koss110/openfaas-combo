@@ -2,7 +2,7 @@ apiVersion: v2
 name: openfaas-combo
 description: A Helm chart to deploy OpenFaaS and federated-gateway
 type: application
-version: 0.1.8
+version: 0.1.9
 
 dependencies:
   - name: federated-gateway
@@ -10,6 +10,6 @@ dependencies:
     repository: "https://openfaas.github.io/faas-netes/"
     condition: federatedGateway.enabled
   - name: openfaas
-    version: "14.1.8"
+    version: "14.1.9"
     repository: "https://openfaas.github.io/faas-netes/"
     condition: openfaas.enabled
