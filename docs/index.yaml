@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   openfaas-combo:
   - apiVersion: v2
-    created: "2023-10-03T14:47:35.533675+03:00"
+    created: "2023-10-03T14:55:30.857937+03:00"
     dependencies:
     - condition: federatedGateway.enabled
       name: federated-gateway
@@ -17,10 +17,10 @@ entries:
     name: openfaas-combo
     type: application
     urls:
-    - https://koss110.github.io/openfaas-combo/openfaas-combo-0.1.9.tgz
+    - https://koss110.github.io/openfaas-combo/docs/openfaas-combo-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v2
-    created: "2023-10-03T14:47:35.530035+03:00"
+    created: "2023-10-03T14:55:30.854894+03:00"
     dependencies:
     - condition: federatedGateway.enabled
       name: federated-gateway
@@ -35,10 +35,10 @@ entries:
     name: openfaas-combo
     type: application
     urls:
-    - https://koss110.github.io/openfaas-combo/openfaas-combo-0.1.8.tgz
+    - https://koss110.github.io/openfaas-combo/docs/openfaas-combo-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-10-03T14:47:35.527123+03:00"
+    created: "2023-10-03T14:55:30.850936+03:00"
     dependencies:
     - condition: federatedGateway.enabled
       name: federated-gateway
@@ -53,10 +53,10 @@ entries:
     name: openfaas-combo
     type: application
     urls:
-    - https://koss110.github.io/openfaas-combo/openfaas-combo-0.1.7.tgz
+    - https://koss110.github.io/openfaas-combo/docs/openfaas-combo-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-10-03T14:47:35.524674+03:00"
+    created: "2023-10-03T14:55:30.848762+03:00"
     dependencies:
     - condition: federatedGateway.enabled
       name: federated-gateway
@@ -71,6 +71,6 @@ entries:
     name: openfaas-combo
     type: application
     urls:
-    - https://koss110.github.io/openfaas-combo/openfaas-combo-0.1.6.tgz
+    - https://koss110.github.io/openfaas-combo/docs/openfaas-combo-0.1.6.tgz
     version: 0.1.6
-generated: "2023-10-03T14:47:35.52068+03:00"
+generated: "2023-10-03T14:55:30.846486+03:00"
