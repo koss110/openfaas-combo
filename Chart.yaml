@@ -2,7 +2,7 @@ apiVersion: v2
 name: openfaas-combo
 description: A Helm chart to deploy OpenFaaS and federated-gateway
 type: application
-version: 0.1.6
+version: 0.1.7
 
 dependencies:
   - name: federated-gateway
