@@ -1,0 +1,12 @@
+# .gitignore
+# Ignore system files
+*.DS_Store
+# Ignore node modules
+node_modules/
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
