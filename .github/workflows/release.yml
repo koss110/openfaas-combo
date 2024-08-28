@@ -7,6 +7,8 @@ on:
 
 jobs:
   release:
+    permissions:
+      contents: write 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,8 +21,10 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
-      - name: Display Chart.yaml
-        run: cat Chart.yaml
+      - name: Set up Helm
+        uses: azure/setup-helm@v4
+        with:
+          version: v3.13.3
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
