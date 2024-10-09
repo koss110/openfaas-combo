@@ -74,7 +74,7 @@ jobs:
         #   charts_dir: charts
 
       - name: Run Trivy vulnerability scanner on released charts
-        uses: aquasecurity/trivy-action@v0.20.0
+        uses: aquasecurity/trivy-action@0.26.0
         with:
           scan-type: 'fs'
           scan-ref: '.cr-release-packages'
