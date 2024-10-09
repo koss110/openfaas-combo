@@ -74,7 +74,7 @@ jobs:
         #   charts_dir: charts
 
       - name: Run Trivy vulnerability scanner on released charts
-        uses: aquasecurity/trivy-action@v0.26.0
+        uses: aquasecurity/trivy-action@v0.20.0
         with:
           scan-type: 'fs'
           scan-ref: '.cr-release-packages'
@@ -83,7 +83,7 @@ jobs:
           severity: 'CRITICAL,HIGH'
 
       - name: Upload Trivy chart scan results to GitHub Security tab
-        uses: github/codeql-action/upload-sarif@v4
+        uses: github/codeql-action/upload-sarif@v3
         if: always()
         with:
           sarif_file: trivy-chart-results.sarif
