@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   openfaas-combo:
   - apiVersion: v2
+    created: "2024-10-09T15:07:48.031291387Z"
+    dependencies:
+    - condition: federatedGateway.enabled
+      name: federated-gateway
+      repository: https://openfaas.github.io/faas-netes/
+      version: 0.0.3
+    - condition: openfaas.enabled
+      name: openfaas
+      repository: https://openfaas.github.io/faas-netes/
+      version: 14.1.9
+    description: A Helm chart to deploy OpenFaaS and federated-gateway
+    digest: 7345aa2fe38c19acb03d91608a901e997fb356a7a735c8cd7c2a5785823ad76c
+    name: openfaas-combo
+    type: application
+    urls:
+    - https://github.com/koss110/openfaas-combo/releases/download/openfaas-combo-0.1.11/openfaas-combo-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
     created: "2024-08-28T12:16:48.339144591Z"
     dependencies:
     - condition: federatedGateway.enabled
@@ -91,4 +109,4 @@ entries:
     urls:
     - https://koss110.github.io/openfaas-combo/docs/openfaas-combo-0.1.6.tgz
     version: 0.1.6
-generated: "2024-08-28T12:16:48.339162254Z"
+generated: "2024-10-09T15:07:48.031322105Z"
